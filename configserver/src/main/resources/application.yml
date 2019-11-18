@@ -11,4 +11,4 @@ spring:
       config:
          server:
             native:
-               searchLocations: ../config-yml
+               searchLocations: file:///c:/code/spring-cloud-introduction/config-yml
