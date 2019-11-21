@@ -1,7 +1,9 @@
 server:
    port: 9411
 
-
 spring:
+  output:
+    ansi:
+      enabled: always
   application:
     name: zipkin

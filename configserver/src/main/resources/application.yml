@@ -1,12 +1,15 @@
 server.port: 8888
 
 spring:
-   application:
-     name: configserver
-   profiles:
-      active: native
-   cloud:
-      config:
-         server:
-            native:
-               searchLocations: file:///c:/code/spring-cloud-introduction/config-yml
+  output:
+    ansi:
+      enabled: always
+  application:
+      name: configserver
+  profiles:
+     active: native
+  cloud:
+     config:
+       server:
+         native:
+           searchLocations: file:///c:/code/spring-cloud-introduction/config-yml
