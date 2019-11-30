@@ -1,0 +1,18 @@
+{
+name: "greeting",
+profiles: [
+"default"
+],
+label: null,
+version: null,
+state: null,
+propertySources: [
+{
+name: "file:///d:/Code/spring-cloud-quickstart/config-yml/greeting.yml",
+source: {
+server.port: 9090,
+greeting: "Hello"
+}
+}
+]
+}
